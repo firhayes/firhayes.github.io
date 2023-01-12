@@ -4,9 +4,6 @@ layout: post
 author: "Philip Craven"
 ---
 
-Added heading one.
-
-# Heading One (h1)
 
 ## Heading Two (h2)
 
