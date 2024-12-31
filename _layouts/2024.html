@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  
+  {{content}}
+
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th style="text-align: center">Idno</th>
+      <th style="text-align: center">Name</th>
+      <th style="text-align: center">Club</th>
+      <th style="text-align: center">Town</th>
+      <th style="text-align: center">County</th>
+      <th style="text-align: center">Country</th>
+      <th style="text-align: center">Date</th>
+      <th style="text-align: center">Scale</th>
+    </tr>
+  </thead>
+  <tbody>
+{% assign filtered_details = site.data.details | where_exp:"item","item.date contains '2024'" %}
+{% for detail in filtered_details %}
+  <tr>
+    <td>{{ detail.idno }}</td>
+    <td>{{ detail.name }}</td>
+    <td>{{ detail.club }}</td>
+    <td>{{ detail.town }}</td>
+    <td>{{ detail.county }}</td>
+    <td>{{ detail.country }}</td>
+    <td>{{ detail.date }}</td>
+    <td>{{ detail.scale }}</td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+
+</div>
