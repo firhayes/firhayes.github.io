@@ -1,4 +1,4 @@
-# firhayes.github.io
+# Header1
 
 ## Header2
 
@@ -10,17 +10,23 @@
 
 ###### Header6
 
+---
+
 ### Numbered List
 
 1. ONE
 2. TWO
 3. THREE
 
+---
+
 ### Unnumbered List
 
 * One
 * Two
 * Three
+
+---
 
 ### Tables
 
