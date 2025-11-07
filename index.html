@@ -10,13 +10,38 @@
 </head>
 <body>
   <div id="table01" class="container">
-  <h1>Header One</h1>
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Symbol</th>
+          <th>Buy or Sell</th>
+          <th>Target</th>
+          <th>Stop</th>
+        </tr>
+      </thead>
+      <tr>
+        <td>D1A</td>
+        <td>GBPCHF</td>
+        <td>Buy</td>
+        <td>1.0677 (80)</td>
+        <td>1.0547 (50)</td>
+      </tr>
+      <tr>
+        <td>D1A</td>
+        <td>USDCHF</td>
+        <td>Sell</td>
+        <td>0.7982 (70)</td>
+        <td>0.8102 (50)</td>
+      </tr>
+    </table>
+    <p>Updated 07-Nov-2025 at 20:15 GMT</p>
   </div>
   <script>
   el = document.getElementById('table01');
   const d = new Date();
   let hour = d.getHours();
-  if (hour < 21 || hour > 22) {
+  if (hour < 20 || hour > 21) {
   el.style.display = 'none'; }
   </script>
 </body>
