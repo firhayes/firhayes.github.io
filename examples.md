@@ -32,5 +32,14 @@
 
 **Bold text**
 
-_talic text_
+_Italic text_
+
+* * *
+
+### Table
+
+|Header|Row|Date|
+----------------
+|Row|1|1-11-2025|
+|Row|2|2-11-2025|
 
