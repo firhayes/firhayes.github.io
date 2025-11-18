@@ -30,7 +30,7 @@
 
 ### Emphasis
 
-** Bold text **
+**Bold text**
 
-_ Italic text _
+_talic text_
 
