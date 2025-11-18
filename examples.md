@@ -28,5 +28,9 @@
 
 ---
 
-### Tables
+### Emphasis
+
+** Bold text **
+
+_ Italic text _
 
